@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.gupaoedu.vip;
+option java_package = "com.gupaoedu.vip";
+option java_outer_classname = "UserProtos";
+
+message User {
+    string name = 1;
+    int32 age = 2;
+}
