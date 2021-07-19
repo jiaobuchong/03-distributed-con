@@ -34,6 +34,7 @@ public class ClientSocketDemo2 {
             while (!readline.equals("bye")) {
                 // 向服务端写入传输数据
                 out.println(readline);
+                out.flush();
 
                 // 收到服务端得内容
                 System.out.println("Server:" + in.readLine());

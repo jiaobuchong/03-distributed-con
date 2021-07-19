@@ -2,20 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153370ee-d7c4-47ae-ba3c-7ed2497062b8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/ServerSocketDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/one/ClientSocketDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/one/ServerSocketDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/02.序列化和反序列化原理分析/课堂源码/distribute-demo/src/main/java/com/gupaoedu/vip/User1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/02.序列化和反序列化原理分析/课堂源码/distribute-demo/src/main/java/com/gupaoedu/vip/proto/User.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../04.分布式通信框架/02.Netty初体验之手写Tomcat/课堂源码/gupaoedu-vip-netty-io/src/main/resources/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/ClientSocketDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/ClientSocketDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/ServerSocketDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/ServerSocketDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/ServerSocketDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/TestA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/TestA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/one/ClientSocketDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/one/ClientSocketDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/one/ServerSocketDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/one/ServerSocketDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/distribute-demo.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/ClientSocketDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/ServerSocketDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/TestA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/TestA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gupaoedu/vip/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gupaoedu/vip/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/ServerSocketDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/ServerSocketDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/one/ServerSocketDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/one/ServerSocketDemo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/src/main/java/com/gupaoedu/rpc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/src/main/java/com/gupaoedu/rpc/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/src/main/java/com/gupaoedu/rpc/RemoteInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/src/main/java/com/gupaoedu/rpc/RemoteInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/src/main/java/com/gupaoedu/rpc/RpcNetTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/src/main/java/com/gupaoedu/rpc/RpcNetTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/src/main/java/com/gupaoedu/rpc/RpcProxyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/src/main/java/com/gupaoedu/rpc/RpcProxyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/src/main/java/com/gupaoedu/rpc/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/src/main/java/com/gupaoedu/rpc/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/classes/com/gupaoedu/rpc/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/classes/com/gupaoedu/rpc/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/classes/com/gupaoedu/rpc/RemoteInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/classes/com/gupaoedu/rpc/RemoteInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/classes/com/gupaoedu/rpc/RpcNetTransport.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/classes/com/gupaoedu/rpc/RpcNetTransport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/classes/com/gupaoedu/rpc/RpcProxyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/classes/com/gupaoedu/rpc/RpcProxyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/classes/com/gupaoedu/rpc/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/classes/com/gupaoedu/rpc/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/test-classes/com/gupaoedu/rpc/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-client/target/test-classes/com/gupaoedu/rpc/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/classes/com/gupaoedu/vip/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/classes/com/gupaoedu/vip/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/classes/com/gupaoedu/vip/IHelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/classes/com/gupaoedu/vip/IHelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/classes/com/gupaoedu/vip/IPaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/classes/com/gupaoedu/vip/IPaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/classes/com/gupaoedu/vip/RpcRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/classes/com/gupaoedu/vip/RpcRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/classes/com/gupaoedu/vip/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/classes/com/gupaoedu/vip/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/rpc-server-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/rpc-server-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/surefire-reports/TEST-com.gupaoedu.vip.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/surefire-reports/TEST-com.gupaoedu.vip.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/surefire-reports/com.gupaoedu.vip.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/surefire-reports/com.gupaoedu.vip.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/test-classes/com/gupaoedu/vip/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-api/target/test-classes/com/gupaoedu/vip/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/GpRpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/GpRpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/HelloServiceImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/HelloServiceImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/ProcessorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/ProcessorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/src/main/java/com/gupaoedu/vip/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/GpRpcServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/GpRpcServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/HelloServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/HelloServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/HelloServiceImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/HelloServiceImpl2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/PaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/PaymentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/ProcessorHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/ProcessorHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/RpcProxyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/RpcProxyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/RpcService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/RpcService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/classes/com/gupaoedu/vip/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/rpc-server-provider-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/rpc-server-provider-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/surefire-reports/TEST-com.gupaoedu.vip.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/surefire-reports/TEST-com.gupaoedu.vip.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/surefire-reports/com.gupaoedu.vip.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/surefire-reports/com.gupaoedu.vip.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/test-classes/com/gupaoedu/vip/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../03.分布式架构基础/03.RPC通信的原理以及手写实现/课堂源码/rpc-server/rpc-server-provider/target/test-classes/com/gupaoedu/vip/AppTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientSocketDemo1">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -117,7 +165,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupaoedu.vip.one.*" />
+          <option name="PATTERN" value="com.gupaoedu.vip.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,6 +229,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.one.ClientSocketDemo1" />
+      <module name="distribute-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -213,18 +268,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.ClientSocketDemo2" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.ServerSocketDemo1" />
       <item itemvalue="Application.ClientSocketDemo1" />
-      <item itemvalue="Application.ClientSocketDemo2" />
       <item itemvalue="Application.ServerSocketDemo2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ClientSocketDemo1" />
         <item itemvalue="Application.ServerSocketDemo1" />
-        <item itemvalue="Application.ServerSocketDemo2" />
         <item itemvalue="Application.ClientSocketDemo2" />
+        <item itemvalue="Application.ServerSocketDemo2" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -244,6 +300,10 @@
       <workItem from="1613130316168" duration="6617000" />
       <workItem from="1613176430128" duration="1413000" />
       <workItem from="1613261940149" duration="518000" />
+      <workItem from="1613484337509" duration="1087000" />
+      <workItem from="1613818128677" duration="420000" />
+      <workItem from="1614091545172" duration="1293000" />
+      <workItem from="1626227242350" duration="3229000" />
     </task>
     <servers />
   </component>

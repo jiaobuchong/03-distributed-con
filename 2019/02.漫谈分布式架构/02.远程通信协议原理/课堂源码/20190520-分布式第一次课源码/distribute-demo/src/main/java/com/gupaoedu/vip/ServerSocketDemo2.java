@@ -39,7 +39,7 @@ public class ServerSocketDemo2 {
             // 请求过来以后，需要等这个连接处理完工作以后才能去处理其他请求
             // BIO 一个客户端对应一个处理连接
             Socket socket = serverSocket.accept(); //接收客户端的连接（阻塞）
-            executorService.execute(new SocketThread(socket));
+//            executorService.execute(new SocketThread(socket));
 
             //拿到输入流（阻塞， read/write阻塞）
             BufferedReader in = new BufferedReader(new InputStreamReader

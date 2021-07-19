@@ -33,6 +33,9 @@ public class ServerSocketDemo1 {
                 //阻塞(连接阻塞）
                 Socket socket = serverSocket.accept(); //接收客户端的连接（阻塞）
 
+                System.out.println("sleep ing");
+                Thread.sleep(10000);
+
 
 
                 //  拿到输入流（阻塞， read/write阻塞）
@@ -42,7 +45,11 @@ public class ServerSocketDemo1 {
                 // 获得客户端的输入信息
                 System.out.println("Client:" + in.readLine());
 
-                TimeUnit.SECONDS.sleep(10);
+                PrintWriter printWriter = new PrintWriter(socket.getOutputStream());
+                printWriter.println("hello, client");
+                printWriter.flush();
+
+                TimeUnit.SECONDS.sleep(1);
             }
 
 

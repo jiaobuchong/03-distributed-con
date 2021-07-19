@@ -20,6 +20,15 @@ public class ClientSocketDemo1 {
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             out.println("Hello 2021");
 
+            // 服务端返回来的输入流
+            BufferedReader in = new BufferedReader(new InputStreamReader
+                    (socket.getInputStream()));
+            System.out.println("from server: " + in.readLine());
+
+            out.close();
+            in.close();
+            socket.close();
+
 
 
 

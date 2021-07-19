@@ -14,8 +14,8 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "com.gupaoedu.vip")
 public class SpringConfig {
 
-    @Bean(name="gpRpcServer")
-    public GpRpcServer gpRpcServer(){
+    @Bean(name = "gpRpcServer")
+    public GpRpcServer gpRpcServer() {
         return new GpRpcServer(8080);
     }
 }
