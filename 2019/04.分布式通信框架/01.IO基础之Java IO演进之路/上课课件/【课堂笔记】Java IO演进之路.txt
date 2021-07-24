@@ -1,0 +1,55 @@
+1、为什么要学Netty?
+
+	Spring5 底层用Netty
+	Spring Boot 内部实现了Web容器
+
+	Zookeeper  也是用的Netty
+	Dubbo  分布式服务框架  多协议支持（RPC） Netty
+
+	有可能成为Java架构师的你筑基
+
+
+2、Netty能帮我们解决什么问题？
+	
+	框架：简化开发一系列解决方案的集合
+	封装IO操作的框架
+	
+	复杂的业务场景中，没有说用一个单独IO API
+	IO + 多线程来解决问题
+	
+	
+	引申：Mina
+	
+	
+3、为什么要封装IO操作
+
+
+
+IO（BIO）Block IO  同步阻塞IO
+
+NIO  Non-Block IO  同步非阻塞IO（线程池）
+
+AIO(NIO2) Async IO 异步非阻塞IO（事件驱动，回调）
+
+目的：提升IO操作的性能
+	IO框架
+
+总结：应用场景
+1.4 以前 都是BIO
+1.4 之后 NIO出现，IO性能得到大幅提升（对性能要求） Netty 默认用的NIO
+1.7 NIO --> NIO2（AIO）操作系统的性能，决定的IO性能（兼容问题）
+
+实现异步：加入线程
+          线程过多CPU会爆
+		  
+Netty 反应堆的概念，线程池+调度
+
+BIO/NIO/AIO    TCP/IP
+
+
+
+
+
+
+
+
