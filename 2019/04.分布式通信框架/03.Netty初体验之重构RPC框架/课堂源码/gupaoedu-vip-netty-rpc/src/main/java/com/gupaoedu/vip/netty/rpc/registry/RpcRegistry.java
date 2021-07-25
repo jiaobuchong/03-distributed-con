@@ -69,7 +69,10 @@ public class RpcRegistry {
                         }
                     })
                     .option(ChannelOption.SO_BACKLOG, 128)
+                    // 子线程可以回收利用的
                     .childOption(ChannelOption.SO_KEEPALIVE, true);
+
+            // 正式启动服务，相当于一个死循环开始轮询
             ChannelFuture future = b.bind(port).sync();
             System.out.println("GP RPC Registry start listen at " + port);
             future.channel().closeFuture().sync();
