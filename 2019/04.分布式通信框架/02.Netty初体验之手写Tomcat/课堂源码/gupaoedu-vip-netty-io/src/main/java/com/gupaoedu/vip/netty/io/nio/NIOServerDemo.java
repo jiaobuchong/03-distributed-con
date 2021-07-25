@@ -56,8 +56,12 @@ public class NIOServerDemo {
             //轮询主线程
 
             while (true) {
+                System.out.println("start polling");
+
                 //大堂经理再叫号
+                // 没有请求会阻塞在这里
                 selector.select();
+
                 //每次都拿到所有的号子
                 Set<SelectionKey> keys = selector.selectedKeys();
                 Iterator<SelectionKey> iter = keys.iterator();
@@ -67,7 +71,7 @@ public class NIOServerDemo {
                     SelectionKey key = iter.next();
                     iter.remove();
                     //每一个key代表一种状态
-                    //没一个号对应一个业务
+                    //每一个号对应一个业务
                     //数据就绪、数据可读、数据可写 等等等等
                     process(key);
                 }
@@ -84,6 +88,7 @@ public class NIOServerDemo {
     private void process(SelectionKey key) throws IOException {
         //针对于每一种状态给一个反应
         if (key.isAcceptable()) {
+            System.out.println("isAcceptable");
             ServerSocketChannel server = (ServerSocketChannel) key.channel();
             //这个方法体现非阻塞，不管你数据有没有准备好
             //你给我一个状态和反馈
@@ -93,6 +98,7 @@ public class NIOServerDemo {
             //当数据准备就绪的时候，将状态改为可读
             key = channel.register(selector, SelectionKey.OP_READ);
         } else if (key.isReadable()) {
+            System.out.println("isReadable");
             //key.channel 从多路复用器中拿到客户端的引用
             SocketChannel channel = (SocketChannel) key.channel();
             int len = channel.read(buffer);
@@ -105,6 +111,7 @@ public class NIOServerDemo {
                 System.out.println("读取内容：" + content);
             }
         } else if (key.isWritable()) {
+            System.out.println("isWriteable");
             SocketChannel channel = (SocketChannel) key.channel();
 
             String content = (String) key.attachment();
