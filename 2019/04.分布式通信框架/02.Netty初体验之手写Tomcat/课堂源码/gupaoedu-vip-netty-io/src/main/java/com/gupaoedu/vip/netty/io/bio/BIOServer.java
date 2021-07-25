@@ -37,7 +37,8 @@ public class BIOServer {
 		while(true){
 			//等待客户端连接，阻塞方法
 			//Socket数据发送者在服务端的引用
-			Socket client = server.accept();
+			System.out.println("starting");
+			Socket client = server.accept();   // accept 会阻塞在这个地方
 			System.out.println(client.getPort());
 
 			//对方法数据给我了，读 Input

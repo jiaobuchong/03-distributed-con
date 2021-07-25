@@ -36,6 +36,7 @@ public class NIOServerDemo {
             //IP/Port
             server.bind(new InetSocketAddress(this.port));
             //BIO 升级版本 NIO，为了兼容BIO，NIO模型默认是采用阻塞式
+            // 重要
             server.configureBlocking(false);
 
             //大堂经理准备就绪，接客
