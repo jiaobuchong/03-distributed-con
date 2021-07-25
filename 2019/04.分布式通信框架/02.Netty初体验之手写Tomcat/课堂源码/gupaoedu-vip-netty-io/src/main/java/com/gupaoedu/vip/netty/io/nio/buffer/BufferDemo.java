@@ -9,6 +9,10 @@ public class BufferDemo {
 
     //put/get
 
+    // position：指下一个将要被写入或者读取的元素索引
+    // limit: 读取的时候是表示缓冲区数组里可以读取的数据最终位置，写入的时候表示缓冲区数组里可以写入到的最终位置
+    // capacity: 缓冲区数组容量，初始化之后不会改变
+
     public static void main(String args[]) throws Exception {
         //这用用的是文件IO处理
         FileInputStream fin = new FileInputStream("/Users/choujack/Downloads/job-switch-plan/03-distributed-con/test.txt");
@@ -24,14 +28,20 @@ public class BufferDemo {
         output("调用read()", buffer);
 
         //准备操作之前，先锁定操作范围
+        // 如果要从缓冲区读取数据，必须调用 flip 方法
+        // 1. 将 limit 设置为当前position的值
+        // 2. 将 position 设置为 0
         buffer.flip();
         output("调用flip()", buffer);
 
         //判断有没有可读数据
+        int i = 0;
         while (buffer.remaining() > 0) {
             byte b = buffer.get();
              System.out.println("cc: " + ((int)b));
+             i++;
         }
+        System.out.println("数据: " + i);
         output("调用get()", buffer);
 
         //可以理解为解锁
