@@ -4,6 +4,10 @@
 	<groupId>com.gupaoedu</groupId>
 	<artifactId>gupaoedu-vip-netty-rpc</artifactId>
 	<version>1.0.0</version>
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
 	
 	<dependencies>
 	
@@ -20,5 +24,7 @@
 		</dependency>
 		
 	</dependencies>
+
+
 
 </project>

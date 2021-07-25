@@ -23,7 +23,6 @@ public class RegistryHandler extends ChannelInboundHandlerAdapter {
         //完成递归扫描
         // 1. 根据包名将所有符合条件的 class 全部扫描出来，放到一个容器中（如果是分布式，读取配置文件）
         // 2. 给每一个对应的classq起一个唯一的名字，作为服务名称，保存到一个容器中
-        // 3. 当有客户端连接过来以后，就会获取协议内容 InvokerProtocol 对象
         // 4. 要去注册好容器中找到符合条件的服务
         // 5. 通过远程调用 Provider 得到返回结果，返回给客户端
         scannerClass("com.gupaoedu.vip.netty.rpc.provider");
@@ -32,6 +31,7 @@ public class RegistryHandler extends ChannelInboundHandlerAdapter {
 
 
     // 有客户端连接上的时候会回调
+    // 3. 当有客户端连接过来以后，就会获取协议内容 InvokerProtocol 对象
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         Object result = new Object();
@@ -58,7 +58,7 @@ public class RegistryHandler extends ChannelInboundHandlerAdapter {
 
 
     /*
-     * 递归扫描
+     * 递归扫描，正常来说应该读取配置文件
      */
     private void scannerClass(String packageName) {
         URL url = this.getClass().getClassLoader().getResource(packageName.replaceAll("\\.", "/"));
@@ -84,6 +84,8 @@ public class RegistryHandler extends ChannelInboundHandlerAdapter {
             try {
                 Class<?> clazz = Class.forName(className);
                 Class<?> i = clazz.getInterfaces()[0];
+                // 应该从配置文件读取
+                // 调用的时候才去解析，用反射
                 registryMap.put(i.getName(), clazz.newInstance());
             } catch (Exception e) {
                 e.printStackTrace();
